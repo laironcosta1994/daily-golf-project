@@ -81,8 +81,3 @@ Instead, we use a delegate, a function we can pass in as an argument. This one i
 ![Map Tilset custom inspector screenshot](/Documentation/map_tileset.png)
 
 The way the MapTileset works is as a series of rules, which it checks in order, looking for the first appropriate one. The rule describes what the spaces neighbors can be.
-
-### Skybox
-Not an architecture note, but for the curious:
-
-I basically used this tutorial: [https://medium.com/@jannik_boysen/procedural-skybox-shader-137f6b0cb77c](https://medium.com/@jannik_boysen/procedural-skybox-shader-137f6b0cb77c). I had to turn off "Cast Shadows" in the graph inspector to get the UV mapping to behave as it does in the older version of Unity used in that tutorial.
